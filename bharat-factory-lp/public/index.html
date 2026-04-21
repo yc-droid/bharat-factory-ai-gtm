@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bharat Factory AI — Put Headsets on Your Workers. Earn ₹4 Lakh a Month.</title>
+<meta name="description" content="1,300+ Indian factories already earning. 100 workers = ₹4 lakh every month. Zero cost. NDA-backed. Apply in 2 minutes." />
+<meta property="og:title" content="Bharat Factory AI — A New Revenue Stream For Your Factory" />
+<meta property="og:description" content="₹4 lakh/month per 100 workers. Free ₹20 lakh efficiency report. Zero cost. Zero risk." />
+<meta property="og:image" content="/hero.jpg" />
+<meta name="robots" content="index,follow" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#141414; --ink2:#2a2a2a; --cream:#fbf7ef; --paper:#fff;
+  --gold:#d4a42c; --saffron:#e8742c; --saffron-dark:#c55a0f; --deep:#0f2540; --money:#1a6b3a;
+  --mute:#6b6b6b; --line:#ead9b6; --red:#c3332b;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:'Inter',-apple-system,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:'Fraunces',serif;font-weight:800;letter-spacing:-.02em;line-height:1.08}
+img,video{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+/* NAV */
+nav{padding:16px 0;background:var(--cream);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-family:'Fraunces',serif;font-weight:800;font-size:22px;letter-spacing:-.3px}
+.brand .accent{color:var(--saffron)}
+.nav-right{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.lang{display:flex;gap:4px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px}
+.lang a{padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;color:var(--mute)}
+.lang a.on{background:var(--ink);color:var(--cream)}
+.nav-phone{display:inline-flex;align-items:center;gap:6px;color:var(--ink);font-weight:600;font-size:14px}
+.nav-phone .ph{width:28px;height:28px;border-radius:50%;background:var(--money);color:#fff;display:grid;place-items:center;font-size:13px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--ink);color:var(--cream);padding:13px 22px;border-radius:999px;font-weight:700;font-size:14px;transition:all .2s;cursor:pointer;border:none;font-family:inherit;white-space:nowrap}
+.btn:hover{background:var(--saffron);transform:translateY(-1px)}
+.btn.wa{background:#25d366;color:#fff}
+.btn.wa:hover{background:#1ebe5d}
+.btn.lg{padding:17px 30px;font-size:16px}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:var(--cream)}
+.wa-icon{width:22px;height:22px;background:#fff;border-radius:50%;display:grid;place-items:center;color:#25d366;font-weight:800}
+
+/* HERO */
+.hero{padding:56px 0 64px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 80% 20%,rgba(232,116,44,.1) 0%,transparent 60%)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;position:relative}
+.tag{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--money);background:#e8f5ed;padding:7px 14px;border-radius:999px;margin-bottom:20px;border:1px solid #c7e6d2}
+.tag::before{content:"●";color:var(--money);animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.3}}
+h1{font-size:64px;margin-bottom:20px}
+h1 .big-rupee{color:var(--saffron)}
+h1 .under{background:linear-gradient(180deg,transparent 65%,#f7dab0 65%);padding:0 4px}
+.hero-sub{font-size:20px;color:var(--ink2);max-width:540px;margin-bottom:28px;line-height:1.55}
+.hero-sub b{color:var(--ink);font-weight:700}
+.cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.hero-meta{display:flex;gap:22px;color:var(--mute);font-size:14px;align-items:center;flex-wrap:wrap}
+.hero-meta b{color:var(--ink);font-weight:700}
+.hero-visual{position:relative}
+.hero-img{width:100%;border-radius:20px;box-shadow:0 40px 80px -30px rgba(20,20,20,.35);aspect-ratio:1024/576;object-fit:cover}
+.money-badge{position:absolute;top:20px;right:-12px;background:var(--paper);border:3px solid var(--ink);border-radius:16px;padding:16px 20px;box-shadow:0 10px 30px rgba(20,20,20,.15);transform:rotate(3deg)}
+.money-badge .label{font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:1px;font-weight:700}
+.money-badge .amt{font-family:'Fraunces',serif;font-weight:800;font-size:32px;color:var(--money);line-height:1}
+.money-badge .sub{font-size:12px;color:var(--mute);margin-top:4px;font-weight:500}
+
+.quick-form{background:var(--paper);border:2px solid var(--line);border-radius:18px;padding:20px;margin-top:24px;box-shadow:0 4px 16px rgba(20,20,20,.04)}
+.quick-form .qf-title{font-family:'Fraunces',serif;font-weight:800;font-size:18px;margin-bottom:4px}
+.quick-form .qf-sub{font-size:13px;color:var(--mute);margin-bottom:12px}
+.quick-form .qf-row{display:grid;grid-template-columns:1fr 1fr auto;gap:8px}
+.quick-form input{padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-size:14px;background:var(--cream);font-family:inherit}
+
+/* PATRIOTIC BAND */
+.patriotic{padding:28px 0 36px;background:linear-gradient(180deg,#fff7e6 0%,#fef0d0 100%);border-top:1px solid var(--line)}
+.tri{display:flex;height:4px;margin:0 auto 22px;max-width:520px;border-radius:4px;overflow:hidden}
+.tri span{flex:1}.tri .s1{background:#ff9933}.tri .s2{background:#fff;border:1px solid #e8ddbd;border-left:none;border-right:none}.tri .s3{background:#138808}
+.pat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.pat-item{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;background:var(--paper);border:1px solid var(--line);border-radius:14px}
+.pat-ico{font-size:24px;flex-shrink:0}
+.pat-item b{display:block;font-size:14px;font-weight:700;color:var(--ink);line-height:1.2;margin-bottom:2px}
+.pat-item span{font-size:12px;color:var(--mute);line-height:1.35}
+
+/* TRUST BAR */
+.trust{padding:40px 0 44px;background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.trust-label{text-align:center;color:var(--mute);font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px;font-weight:700}
+.logo-wall{display:flex;justify-content:center;gap:44px;flex-wrap:wrap;align-items:center;margin-bottom:28px}
+.logo-item{display:inline-flex;align-items:center;justify-content:center;height:44px;opacity:.78;filter:grayscale(1);transition:all .3s}
+.logo-item:hover{opacity:1;filter:grayscale(0)}
+.logo-item img{height:100%;width:auto;max-width:120px;object-fit:contain}
+.impact-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line);padding-top:24px}
+.impact-strip .m{text-align:center;padding:0 20px;border-right:1px solid var(--line)}
+.impact-strip .m:last-child{border-right:none}
+.impact-strip .m b{font-family:'Fraunces',serif;font-size:32px;font-weight:800;color:var(--ink);display:block;line-height:1}
+.impact-strip .m .c{color:var(--money);font-size:36px}
+.impact-strip .m .y{color:var(--saffron);font-size:36px}
+.impact-strip .m span{font-size:12px;color:var(--mute);margin-top:6px;display:block;letter-spacing:.3px;font-weight:600}
+
+/* TESTIMONIALS */
+.testi{padding:72px 0;background:var(--cream)}
+.testi-head{text-align:center;max-width:720px;margin:0 auto 44px}
+.eyebrow{color:var(--saffron);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:2px;margin-bottom:14px}
+h2{font-size:44px;margin-bottom:14px;line-height:1.1}
+.lead{font-size:18px;color:var(--ink2);max-width:720px;line-height:1.55}
+.testi-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.testi-card{background:var(--paper);border-radius:18px;overflow:hidden;border:1px solid var(--line);box-shadow:0 2px 14px rgba(20,20,20,.04)}
+.testi-card video{width:100%;aspect-ratio:16/9;background:#000;object-fit:cover}
+.testi-body{padding:22px 26px 26px}
+.testi-quote{font-family:'Fraunces',serif;font-size:18px;line-height:1.4;margin-bottom:16px;color:var(--ink)}
+.testi-meta{display:flex;gap:14px;align-items:center;padding-top:14px;border-top:1px solid var(--line)}
+.avatar{width:44px;height:44px;border-radius:50%;background:var(--deep);color:var(--cream);display:grid;place-items:center;font-weight:700;font-size:16px;font-family:'Fraunces',serif}
+.testi-meta-text b{display:block;font-size:15px;font-weight:700}
+.testi-meta-text span{font-size:13px;color:var(--mute)}
+
+/* MID-PAGE FORM (condensed) */
+.midform{padding:48px 0;background:var(--paper)}
+.midform-inner{max-width:920px;margin:0 auto;background:linear-gradient(135deg,#fff8eb 0%,#fcecc9 100%);border:1px solid var(--line);border-radius:22px;padding:36px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+.midform h3{font-size:30px;margin-bottom:10px}
+.midform p{color:var(--ink2);font-size:15px;margin-bottom:0}
+.midform-side{display:grid;gap:10px}
+.midform-side a{display:flex;align-items:center;gap:12px;background:var(--paper);padding:14px 16px;border-radius:12px;border:1px solid var(--line);font-weight:600;font-size:15px;transition:all .2s}
+.midform-side a:hover{border-color:var(--saffron);transform:translateY(-1px)}
+.midform-side a .ico{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:18px;flex-shrink:0}
+.midform-side .wa .ico{background:#25d366;color:#fff}
+.midform-side .call .ico{background:var(--money);color:#fff}
+.midform-side .form-l .ico{background:var(--saffron);color:#fff}
+
+/* HOW */
+.how{padding:72px 0;background:var(--paper);border-top:1px solid var(--line)}
+.how-head{max-width:720px;margin-bottom:40px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.step{padding:26px 22px;background:var(--cream);border:1px solid var(--line);border-radius:16px}
+.step-num{font-family:'Fraunces',serif;font-size:44px;font-weight:800;color:var(--saffron);line-height:1;margin-bottom:12px}
+.step h4{font-size:17px;margin-bottom:6px}
+.step p{color:var(--mute);font-size:14px}
+
+/* BENEFITS */
+.benefit{padding:76px 0;border-top:1px solid var(--line)}
+.benefit.bg-cream{background:var(--cream)}
+.benefit.bg-dark{background:var(--ink);color:var(--cream)}
+.benefit.bg-dark h2,.benefit.bg-dark h3{color:var(--cream)}
+.benefit.bg-dark .lead{color:#bcbcbc}
+.benefit.bg-dark .eyebrow{color:var(--gold)}
+.benefit-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.benefit-grid.flip{direction:rtl}
+.benefit-grid.flip > *{direction:ltr}
+.b-headline{font-family:'Fraunces',serif;font-size:48px;font-weight:800;line-height:1.05;margin:10px 0 18px}
+.b-big{font-family:'Fraunces',serif;font-size:96px;line-height:.9;font-weight:800;color:var(--money);letter-spacing:-.03em;margin-bottom:8px}
+.b-big.gold{color:var(--gold)}
+.b-caption{color:var(--mute);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:18px}
+.b-desc{font-size:17px;color:var(--ink2);margin-bottom:22px;line-height:1.6}
+.b-desc b{color:var(--ink);font-weight:700}
+.benefit.bg-dark .b-desc b{color:var(--gold)}
+.b-visual{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:0 20px 40px -20px rgba(20,20,20,.15)}
+.benefit.bg-dark .b-visual{background:var(--ink2);border-color:#333;padding:0;overflow:hidden}
+.b-list{list-style:none;display:grid;gap:8px;margin-top:16px}
+.b-list li{display:flex;gap:10px;align-items:flex-start;font-size:15px}
+.b-list li::before{content:"✓";color:var(--money);font-weight:800;flex-shrink:0}
+.benefit.bg-dark .b-list li::before{color:var(--gold)}
+
+/* Payout scale table */
+.pay-table{width:100%;border-collapse:collapse;margin-top:8px}
+.pay-table th,.pay-table td{padding:12px 14px;text-align:left;font-size:14px;border-bottom:1px dashed #e0c994}
+.pay-table th{font-family:'Inter',sans-serif;font-weight:600;color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+.pay-table td{font-family:'Fraunces',serif;font-weight:700;font-size:17px}
+.pay-table td:last-child{color:var(--money);text-align:right;font-weight:800}
+.pay-table tr:last-child td{border-bottom:none;background:#e8f5ed;font-size:20px}
+.pay-table tr:last-child td:first-child{border-radius:8px 0 0 8px}
+.pay-table tr:last-child td:last-child{border-radius:0 8px 8px 0}
+
+/* Report mock */
+.report-mock{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.report-tile{background:var(--cream);border:1px solid var(--line);border-radius:10px;padding:16px}
+.report-tile .num{font-family:'Fraunces',serif;font-weight:800;font-size:30px;color:var(--ink)}
+.report-tile .lbl{font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.5px;margin-top:4px;font-weight:700}
+.bars{display:flex;gap:3px;align-items:flex-end;height:56px;margin-top:10px}
+.bar{flex:1;background:var(--saffron);border-radius:2px 2px 0 0}
+
+/* Robot image */
+.robot-img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:20px;display:block}
+
+/* VISION */
+.vision{padding:80px 0;background:linear-gradient(135deg,#faf2e2 0%,#f7e5c6 100%);text-align:center}
+.vision h2{font-size:48px;max-width:900px;margin:0 auto 18px}
+.vision .lead{margin:0 auto 28px}
+.vision-stats{display:flex;justify-content:center;gap:56px;flex-wrap:wrap;margin-top:40px}
+.v-stat b{font-family:'Fraunces',serif;font-size:44px;font-weight:800;color:var(--saffron);display:block;line-height:1}
+.v-stat span{font-size:13px;color:var(--mute);text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-top:6px;display:block}
+
+/* APPLY FORM (full) */
+.apply{padding:80px 0;background:var(--ink);color:var(--cream)}
+.apply .eyebrow{color:var(--gold)}
+.apply h2{color:var(--cream)}
+.apply-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.apply-left p{color:#bcbcbc;font-size:17px;margin-bottom:20px}
+.apply-contacts{display:flex;flex-direction:column;gap:10px;margin-top:24px}
+.apply-contacts a{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.04);padding:14px 18px;border-radius:12px;border:1px solid #333;color:var(--cream);font-weight:600;transition:all .2s}
+.apply-contacts a:hover{background:rgba(212,164,44,.15);border-color:var(--gold)}
+.apply-contacts .ic{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:18px;flex-shrink:0;color:#fff}
+.apply-contacts .ic.wa{background:#25d366}
+.apply-contacts .ic.call{background:var(--money)}
+.apply-contacts .ic.mail{background:var(--saffron)}
+.apply-trust{display:flex;gap:16px;color:#9a9a9a;font-size:13px;margin-top:28px;padding-top:20px;border-top:1px solid #333;flex-wrap:wrap}
+.apply-trust b{color:var(--gold)}
+.form-box{background:var(--paper);color:var(--ink);border-radius:20px;padding:32px;box-shadow:0 20px 50px -20px rgba(0,0,0,.2)}
+.form-box-head{margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.form-box-title{font-family:'Fraunces',serif;font-weight:800;font-size:26px;margin-bottom:6px;line-height:1.1}
+.form-box-sub{font-size:14px;color:var(--mute);font-weight:500}
+form{display:grid;gap:0}
+form.v2{gap:22px}
+.field-group{display:grid;gap:14px}
+.fg-title{font-size:11px;font-weight:700;color:var(--saffron);text-transform:uppercase;letter-spacing:1.5px;padding-bottom:2px}
+.field{display:grid;gap:6px}
+.field label{font-size:13px;font-weight:600;color:var(--ink);font-family:'Inter',sans-serif}
+.field .help{font-size:12px;color:var(--mute);margin-top:2px}
+input,select{padding:14px 16px;border:1.5px solid var(--line);border-radius:12px;font-size:15px;background:var(--paper);font-family:inherit;color:var(--ink);transition:all .15s;width:100%}
+input::placeholder{color:#bfb09a}
+input:hover,select:hover{border-color:#d4c193}
+input:focus,select:focus{outline:none;border-color:var(--saffron);box-shadow:0 0 0 4px rgba(232,116,44,.12)}
+input:valid:not(:placeholder-shown),select:valid:not([value=""]):not(:focus){border-color:#c0d9c8}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.consent{font-size:11.5px;color:var(--mute);margin-top:14px;line-height:1.55;text-align:center}
+.form-trust{display:flex;gap:14px;margin:4px 0 0;padding:12px 14px;background:var(--cream);border:1px solid var(--line);border-radius:12px;font-size:12.5px;color:var(--ink);font-weight:600;justify-content:center;flex-wrap:wrap}
+.submit-btn{margin-top:14px;width:100%;padding:18px 24px;font-size:16px;font-weight:700;border-radius:14px;position:relative;gap:10px}
+.submit-btn .arrow{transition:transform .2s}
+.submit-btn:hover .arrow{transform:translateX(4px)}
+.submit-btn .wa-icon{width:26px;height:26px;font-size:13px}
+
+/* FAQ */
+.faq{padding:72px 0;background:var(--cream)}
+.faq-grid{max-width:820px;margin:36px auto 0}
+details{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:20px 24px;margin-bottom:10px;transition:all .2s}
+details[open]{border-color:var(--saffron)}
+details summary{cursor:pointer;font-weight:700;font-size:17px;list-style:none;display:flex;justify-content:space-between;align-items:center;font-family:'Fraunces',serif}
+details summary::after{content:"+";font-size:28px;color:var(--saffron);font-weight:300;line-height:1}
+details[open] summary::after{content:"−"}
+details p{margin-top:12px;color:var(--ink2);line-height:1.65;font-size:15px}
+
+/* FOOTER */
+footer{padding:36px 0;background:var(--ink);color:#8a8a8a;font-size:13px;text-align:center}
+footer a{color:var(--gold)}
+
+/* FLOATING WA */
+.wa-float{position:fixed;bottom:20px;right:20px;z-index:100;background:#25d366;color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 24px rgba(37,211,102,.4);font-size:26px;transition:all .2s}
+.wa-float:hover{transform:scale(1.08)}
+
+@media (max-width:940px){
+  .pat-grid{grid-template-columns:1fr 1fr}
+  h1{font-size:40px}h2{font-size:30px}
+  .hero{padding:32px 0 48px}
+  .hero-grid{grid-template-columns:1fr;gap:28px}
+  .benefit-grid{grid-template-columns:1fr;gap:28px}
+  .benefit-grid.flip{direction:ltr}
+  .testi-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .midform-inner{grid-template-columns:1fr;padding:24px}
+  .apply-grid{grid-template-columns:1fr;gap:28px}
+  .row{grid-template-columns:1fr}
+  .b-big{font-size:66px}.b-headline{font-size:32px}
+  .vision h2{font-size:32px}
+  .vision-stats{gap:28px}
+  .logo-wall{gap:24px}
+  .logo-item{height:32px}
+  .impact-strip{grid-template-columns:1fr;gap:16px}
+  .impact-strip .m{border-right:none;border-bottom:1px solid var(--line);padding-bottom:16px}
+  .impact-strip .m:last-child{border-bottom:none}
+  .money-badge{right:16px;top:16px;padding:12px 14px}
+  .money-badge .amt{font-size:24px}
+  .nav-phone{display:none}
+  .quick-form .qf-row{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap nav">
+  <div class="brand">Bharat <span class="accent">Factory</span> AI</div>
+  <div class="nav-right">
+    <a class="nav-phone" href="tel:+919999999999"><span class="ph">📞</span> +91 99999 99999</a>
+    <div class="lang">
+      <a class="on" href="/">EN</a>
+      <a href="/hi">हिन्दी</a>
+    </div>
+    <a class="btn wa" href="https://wa.me/919999999999?text=Hi%20Bharat%20Factory%20AI%2C%20I%20want%20the%20free%20factory%20audit"><span class="wa-icon">💬</span>WhatsApp</a>
+  </div>
+</div></nav>
+
+<!-- HERO -->
+<header class="hero"><div class="wrap hero-grid">
+  <div>
+    <div class="tag">🇮🇳 Aligned with Make in India · 1,300+ factories onboard</div>
+    <h1>India's factory AI mission. <span class="big-rupee">₹4,00,000</span> <span class="under">every month</span> for yours.</h1>
+    <p class="hero-sub">Part of Bharat's industrial AI initiative — aligned with Make in India and the PLI mission. A 100-worker factory can earn ₹4 lakh every month. <b>Zero cost. Zero risk. NDA-backed.</b></p>
+    <div class="cta-row">
+      <a class="btn lg" href="#apply">Apply for free audit →</a>
+      <a class="btn lg ghost" href="#how">How it works</a>
+    </div>
+    <div class="hero-meta">
+      <span>✓ <b>100 workers = ₹4L/month</b></span>
+      <span>✓ <b>5–7 day pilot</b></span>
+      <span>✓ <b>No commitment</b></span>
+    </div>
+
+    <!-- Early inline form -->
+    <div class="quick-form">
+      <div class="qf-title">60-second audit request</div>
+      <div class="qf-sub">Our team will WhatsApp you within 24 hours</div>
+      <form id="quick-lead">
+        <div class="qf-row">
+          <input required name="company" placeholder="Factory name" />
+          <input required name="phone" type="tel" placeholder="WhatsApp number" pattern="[+]?[0-9 -]{10,15}" />
+          <button class="btn wa" type="submit">Apply →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <img class="hero-img" src="/hero.jpg" alt="Indian factory owner receiving cash payout from Bharat Factory AI partnership" />
+    <div class="money-badge">
+      <div class="label">You earn</div>
+      <div class="amt">₹4,00,000</div>
+      <div class="sub">every month, per 100 workers</div>
+    </div>
+  </div>
+</div></header>
+
+<!-- PATRIOTIC TRUST BAND -->
+<div class="patriotic"><div class="wrap">
+  <div class="tri"><span class="s1"></span><span class="s2"></span><span class="s3"></span></div>
+  <div class="pat-grid">
+    <div class="pat-item"><div class="pat-ico">🇮🇳</div><div><b>Make in India aligned</b><span>Supporting India's manufacturing mission</span></div></div>
+    <div class="pat-item"><div class="pat-ico">🏭</div><div><b>PLI Scheme-ready</b><span>Qualify for productivity-linked incentives</span></div></div>
+    <div class="pat-item"><div class="pat-ico">🚀</div><div><b>Industry 4.0 mission</b><span>India's factory automation initiative</span></div></div>
+    <div class="pat-item"><div class="pat-ico">🛡️</div><div><b>Atmanirbhar Bharat</b><span>Building India's industrial AI layer</span></div></div>
+  </div>
+</div></div>
+
+<!-- TRUST BAR with REAL LOGOS + IMPACT METRICS -->
+<div class="trust"><div class="wrap">
+  <div class="trust-label">India's manufacturing leaders are already onboard</div>
+  <div class="logo-wall">
+    <div class="logo-item"><img src="/logos/tata-steel.png" alt="Tata Steel"></div>
+    <div class="logo-item"><img src="/logos/mrf.png" alt="MRF"></div>
+    <div class="logo-item"><img src="/logos/dabur.png" alt="Dabur"></div>
+    <div class="logo-item"><img src="/logos/mahindra.svg" alt="Mahindra"></div>
+    <div class="logo-item"><img src="/logos/jsw.png" alt="JSW"></div>
+    <div class="logo-item"><img src="/logos/lnt.png" alt="L&amp;T"></div>
+    <div class="logo-item"><img src="/logos/aditya-birla.png" alt="Aditya Birla"></div>
+  </div>
+  <div class="impact-strip">
+    <div class="m"><b class="c">₹109 Cr</b><span>Total payout to partner factories</span></div>
+    <div class="m"><b class="y">₹340 Cr</b><span>Productivity unlocked for partners</span></div>
+    <div class="m"><b>21 Lakh hrs</b><span>Saved through better efficiency</span></div>
+  </div>
+</div></div>
+
+<!-- TESTIMONIALS -->
+<section class="testi"><div class="wrap">
+  <div class="testi-head">
+    <div class="eyebrow">From the factory floor</div>
+    <h2>Factory owners already earning with us.</h2>
+    <p class="lead">Real operators. Real plants. Real payouts.</p>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card">
+      <video controls preload="metadata" playsinline><source src="/testimonial-gmatex.mp4" type="video/mp4"></video>
+      <div class="testi-body">
+        <div class="testi-quote">"Wherever we've implemented the technology, it has made life easier for our operators. 5,000 people and their families depend on how efficiently we perform."</div>
+        <div class="testi-meta">
+          <div class="avatar">PM</div>
+          <div class="testi-meta-text"><b>Prashant Mohata</b><span>MD · G-Matex Industries (5,000+ employees)</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <video controls preload="metadata" playsinline><source src="/testimonial-anubha.mp4" type="video/mp4"></video>
+      <div class="testi-body">
+        <div class="testi-quote">"People called us mad when we started. Today everyone is trying to copy our model. If you can do things better, someone will always come looking for you."</div>
+        <div class="testi-meta">
+          <div class="avatar">AG</div>
+          <div class="testi-meta-text"><b>Aditya Goel</b><span>CEO · Anubha Industries (supplier to Patagonia, Nike, Decathlon)</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- MID-PAGE MINI APPLY (multi-channel) -->
+<section class="midform"><div class="wrap">
+  <div class="midform-inner">
+    <div>
+      <div class="eyebrow">Ready? Contact us now</div>
+      <h3>3 ways to get started</h3>
+      <p>WhatsApp, call, or fill the form — they all reach the same team. You'll hear back within 24 hours.</p>
+    </div>
+    <div class="midform-side">
+      <a class="wa" href="https://wa.me/919999999999?text=Hi%20Bharat%20Factory%20AI%2C%20I%20want%20free%20factory%20audit"><span class="ico">💬</span> <span><b>Chat on WhatsApp</b><br><span style="color:var(--mute);font-size:12px;font-weight:500">+91 99999 99999</span></span></a>
+      <a class="call" href="tel:+919999999999"><span class="ico">📞</span> <span><b>Call us (9am–8pm)</b><br><span style="color:var(--mute);font-size:12px;font-weight:500">+91 99999 99999</span></span></a>
+      <a class="form-l" href="#apply"><span class="ico">📝</span> <span><b>Fill the form (2 min)</b><br><span style="color:var(--mute);font-size:12px;font-weight:500">Confirmation on WhatsApp</span></span></a>
+    </div>
+  </div>
+</div></section>
+
+<!-- HOW -->
+<section class="how" id="how"><div class="wrap">
+  <div class="how-head">
+    <div class="eyebrow">How it works</div>
+    <h2>Put headsets on your workers. Get paid. That's it.</h2>
+    <p class="lead">A 5–7 day pilot. Workers continue their normal shift. You receive cash + a free ₹20 lakh efficiency report.</p>
+  </div>
+  <div class="steps">
+    <div class="step"><div class="step-num">01</div><h4>15-min call</h4><p>Our team confirms your factory qualifies (50+ workers, manual operations).</p></div>
+    <div class="step"><div class="step-num">02</div><h4>Sign the NDA</h4><p>Mutual NDA protects your data, processes, and trade secrets. Worker consent is mandatory.</p></div>
+    <div class="step"><div class="step-num">03</div><h4>Deploy headsets</h4><p>We ship the devices. Workers wear them during their shifts. ~7.7 hours/day of data collected.</p></div>
+    <div class="step"><div class="step-num">04</div><h4>Cash + report</h4><p>At the end of the pilot you receive your cash payout and exclusive AI efficiency report.</p></div>
+  </div>
+</div></section>
+
+<!-- BENEFIT 1 — CASH (with scale table) -->
+<section class="benefit bg-cream"><div class="wrap benefit-grid">
+  <div>
+    <div class="eyebrow">Benefit 01 · Cash</div>
+    <div class="b-big">₹4,00,000</div>
+    <div class="b-caption">Every month · 100-worker factory</div>
+    <h3 class="b-headline">Cash every month, straight to your account.</h3>
+    <p class="b-desc">You earn <b>₹25 per usable hour</b> of data from each worker. 100 workers × 5 hours × 30 days = <b>₹4 lakh every month</b>. The more workers, the more you earn — simple business, transparent math.</p>
+    <ul class="b-list">
+      <li>Workers continue their normal shifts — no disruption</li>
+      <li>You decide how to split the payout between the factory and workers</li>
+      <li>First payout at the end of the pilot (5–7 days)</li>
+      <li>No capex, no hidden fees, no minimum commitment</li>
+    </ul>
+  </div>
+  <div class="b-visual">
+    <div style="font-size:13px;color:var(--mute);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px">Your factory = how much cash?</div>
+    <table class="pay-table">
+      <thead><tr><th>Workers</th><th style="text-align:right">Monthly payout</th></tr></thead>
+      <tbody>
+        <tr><td>100 workers</td><td>₹4,00,000</td></tr>
+        <tr><td>200 workers</td><td>₹8,00,000</td></tr>
+        <tr><td>500 workers</td><td>₹20,00,000</td></tr>
+        <tr><td>1,000 workers</td><td>₹40,00,000</td></tr>
+        <tr><td>2,000 workers</td><td>₹80,00,000</td></tr>
+      </tbody>
+    </table>
+    <div style="margin-top:16px;padding:12px 14px;background:#e8f5ed;border-radius:10px;font-size:13px;color:var(--money);font-weight:700;text-align:center">💰 Simple rule: ₹4,000 per worker, per month</div>
+  </div>
+</div></section>
+
+<!-- BENEFIT 2 — EFFICIENCY REPORT -->
+<section class="benefit"><div class="wrap benefit-grid flip">
+  <div>
+    <div class="eyebrow">Benefit 02 · Productivity booster</div>
+    <div class="b-big gold">₹20,00,000</div>
+    <div class="b-caption">Free AI efficiency report · Yours to keep</div>
+    <h3 class="b-headline">Understand your factory floor like never before.</h3>
+    <p class="b-desc">Our AI analyses every worker's shift, hour by hour. You receive a <b>₹20 lakh-value efficiency report</b> — benchmarked against 300+ factories, with per-worker analysis and a custom improvement plan that can raise output by 15–30%.</p>
+    <ul class="b-list">
+      <li>Per-worker productivity analysis (scales to 20,000+ workers)</li>
+      <li>Hour-by-hour productivity curve — know your factory's peak hours</li>
+      <li>Custom improvement plan with priority interventions</li>
+      <li>Private login portal — exclusive to your factory</li>
+      <li>Benchmarked against 300+ factories, 6+ publicly listed industries</li>
+    </ul>
+  </div>
+  <div class="b-visual">
+    <div style="font-size:13px;color:var(--mute);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px">Sample report preview</div>
+    <div class="report-mock">
+      <div class="report-tile"><div class="num">78%</div><div class="lbl">Overall efficiency</div></div>
+      <div class="report-tile"><div class="num">+22%</div><div class="lbl">Improvement potential</div></div>
+    </div>
+    <div style="margin-top:14px;padding:16px;background:var(--cream);border:1px solid var(--line);border-radius:10px">
+      <div style="font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.5px;font-weight:700;margin-bottom:8px">Productivity by hour</div>
+      <div class="bars">
+        <div class="bar" style="height:80%"></div><div class="bar" style="height:95%"></div>
+        <div class="bar" style="height:88%"></div><div class="bar" style="height:72%"></div>
+        <div class="bar" style="height:65%"></div><div class="bar" style="height:78%"></div>
+        <div class="bar" style="height:82%"></div><div class="bar" style="height:70%"></div>
+        <div class="bar" style="height:55%"></div><div class="bar" style="height:48%"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--mute);margin-top:6px"><span>9 AM</span><span>6 PM</span></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- BENEFIT 3 — ROBOTICS -->
+<section class="benefit bg-dark"><div class="wrap benefit-grid">
+  <div>
+    <div class="eyebrow">Benefit 03 · Future-ready your factory</div>
+    <h3 class="b-headline" style="color:var(--cream)">First access to factory robots — at subsidized rates.</h3>
+    <p class="b-desc" style="color:#bcbcbc">Every listed company is racing to automate. Partner factories get <b>first access to our factory automation and humanoid robots</b>, at founding-partner pricing. Lock in your competitive advantage today.</p>
+    <ul class="b-list">
+      <li>First in line for factory automation deployment</li>
+      <li>Founding-partner pricing on all future robotics hardware</li>
+      <li>Priority technical integration support</li>
+      <li>Industry-first access, ahead of your competitors</li>
+    </ul>
+  </div>
+  <div class="b-visual">
+    <img class="robot-img" src="/robots.jpg" alt="Indian smart factory with AI robots and humanoids working alongside workers" />
+  </div>
+</div></section>
+
+<!-- VISION -->
+<section class="vision"><div class="wrap">
+  <div class="eyebrow">🇮🇳 The Bharat factory story</div>
+  <h2>Built for India's manufacturing mission.</h2>
+  <p class="lead" style="margin:0 auto 8px">Every developed economy built its wealth on a manufacturing revolution. India's time is now. Aligned with the government's <b>Make in India</b>, <b>PLI Scheme</b>, and <b>Atmanirbhar Bharat</b> vision — every factory that partners with us helps Indian workers earn more, work smarter, and win on the global stage.</p>
+  <div class="vision-stats">
+    <div class="v-stat"><b>₹109 Cr+</b><span>Paid to partner factories</span></div>
+    <div class="v-stat"><b>18 states</b><span>Factory presence</span></div>
+    <div class="v-stat"><b>4.2 lakh+</b><span>Workers earning extra income</span></div>
+  </div>
+</div></section>
+
+<!-- APPLY (full form) -->
+<section class="apply" id="apply"><div class="wrap apply-grid">
+  <div class="apply-left">
+    <div class="eyebrow">Apply in 2 minutes</div>
+    <h2>Claim your free audit + cash payout.</h2>
+    <p>We're onboarding only 20 new Indian factories this month. Submit your details — our India team will WhatsApp you within 24 hours.</p>
+    <div class="apply-contacts">
+      <a href="https://wa.me/919999999999?text=Hi%20Bharat%20Factory%20AI"><span class="ic wa">💬</span><span><b>WhatsApp: +91 99999 99999</b><br><span style="color:#9a9a9a;font-size:13px;font-weight:500">Fastest response — 10 min</span></span></a>
+      <a href="tel:+919999999999"><span class="ic call">📞</span><span><b>Call: +91 99999 99999</b><br><span style="color:#9a9a9a;font-size:13px;font-weight:500">Mon–Sat, 9am–8pm IST</span></span></a>
+      <a href="mailto:partner@bharatfactory.ai"><span class="ic mail">✉️</span><span><b>partner@bharatfactory.ai</b><br><span style="color:#9a9a9a;font-size:13px;font-weight:500">Written proposals welcome</span></span></a>
+    </div>
+    <div class="apply-trust">
+      <span>✅ <b>NDA before data collection</b></span>
+      <span>🔒 <b>Data privacy guaranteed</b></span>
+    </div>
+  </div>
+  <div class="form-box">
+    <div class="form-box-head">
+      <div class="form-box-title">Free factory audit</div>
+      <div class="form-box-sub">Takes 90 seconds · We'll WhatsApp you today</div>
+    </div>
+    <form id="lead-form" class="v2">
+      <div class="field-group">
+        <div class="fg-title">About you</div>
+        <div class="row">
+          <div class="field">
+            <label>Full name</label>
+            <input required name="name" placeholder="Rajesh Kumar" autocomplete="name" />
+          </div>
+          <div class="field">
+            <label>Your role</label>
+            <select required name="role">
+              <option value="">Select role</option>
+              <option>Owner / MD</option>
+              <option>Plant Head</option>
+              <option>Works Manager</option>
+              <option>Production Head</option>
+              <option>Operations Head</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label>WhatsApp number</label>
+          <input required name="phone" type="tel" placeholder="+91 98XXX XXXXX" autocomplete="tel" pattern="[+]?[0-9 -]{10,15}" inputmode="tel" />
+          <small class="help">We'll send your free audit details here</small>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <div class="fg-title">About your factory</div>
+        <div class="field">
+          <label>Factory name</label>
+          <input required name="company" placeholder="ABC Industries Pvt Ltd" autocomplete="organization" />
+        </div>
+        <div class="row">
+          <div class="field">
+            <label>Workers on floor</label>
+            <select required name="workers">
+              <option value="">Select size</option>
+              <option>50–100</option><option>100–500</option><option>500–2,000</option><option>2,000+</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>City</label>
+            <select required name="city">
+              <option value="">Select city</option>
+              <option>Bangalore / Bengaluru</option><option>Chennai / Sriperumbudur</option><option>Coimbatore</option>
+              <option>Hubli / Dharwad</option><option>Ahmedabad / Sanand</option><option>Nashik</option>
+              <option>Pune</option><option>Mumbai</option><option>Hyderabad</option><option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label>Industry</label>
+          <select required name="industry">
+            <option value="">Select industry</option>
+            <option>Textile / Garment</option><option>Auto Components</option><option>Electronics Assembly</option>
+            <option>FMCG / Packaging</option><option>Metal Fabrication</option><option>Footwear</option>
+            <option>Plastics</option><option>Pharma / Chemical</option><option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-trust">
+        <span>✓ Zero cost</span>
+        <span>🔒 NDA-backed</span>
+        <span>⚡ 10-min response</span>
+      </div>
+      <button class="btn wa lg submit-btn" type="submit">
+        <span class="wa-icon">💬</span>
+        Send my details on WhatsApp
+        <span class="arrow">→</span>
+      </button>
+      <p class="consent">By submitting, you agree to receive a WhatsApp message from our team. No spam, ever. We sign an NDA before any data collection.</p>
+    </form>
+  </div>
+</div></section>
+
+<!-- FAQ -->
+<section class="faq"><div class="wrap">
+  <div style="text-align:center">
+    <div class="eyebrow">Common questions</div>
+    <h2>What factory owners ask us.</h2>
+  </div>
+  <div class="faq-grid">
+    <details open><summary>Is it really free? What's the catch?</summary><p>Genuinely zero cost. No setup fee, no hardware fee, no commitment after the pilot. We fund everything because the data your workers generate trains the next generation of factory automation systems. That's where our returns come from — not from you.</p></details>
+    <details><summary>What about data privacy and our trade secrets?</summary><p>We sign a mutual NDA before any data collection. The headset records worker hand movements and general environment — not faces, not conversations, not proprietary machinery. You decide what's off-limits.</p></details>
+    <details><summary>Will workers be comfortable wearing a headset?</summary><p>Worker consent is mandatory. Most workers welcome it because a portion of the monthly payout goes directly to them (~₹1,400/worker/month in extra income). The headset is lightweight and safety-certified.</p></details>
+    <details><summary>How long do we have to commit?</summary><p>Nothing. The pilot is 5–7 days. After you see the efficiency report and receive the payout, you decide whether to continue monthly. Zero lock-in.</p></details>
+    <details><summary>Why are you offering this for free?</summary><p>Every month we delay, factories in other countries get onboarded by our competitors. India has the chance to become the global manufacturing AI leader — but only if Indian factories partner first. That's why we're investing.</p></details>
+    <details><summary>When do the robots roll out? What's guaranteed?</summary><p>Founding partners get first access when our humanoid and automation systems roll out. The guarantee is simple: the first 100 partner factories get locked-in pricing + priority deployment. Everything else is spelled out in the contract.</p></details>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div style="font-family:'Fraunces',serif;font-weight:800;font-size:18px;color:var(--cream);margin-bottom:8px">Bharat Factory AI</div>
+  Industrial AI partnerships · <a href="mailto:partner@bharatfactory.ai">partner@bharatfactory.ai</a> · <a href="tel:+919999999999">+91 99999 99999</a><br><br>
+  <span style="color:#555;font-size:11px">© 2026 · NDA on every engagement · Made in India 🇮🇳</span>
+</div></footer>
+
+<a class="wa-float" href="https://wa.me/919999999999?text=Hi%20Bharat%20Factory%20AI%2C%20mujhe%20free%20factory%20audit%20chahiye" aria-label="WhatsApp">💬</a>
+
+<script>
+const WA_NUMBER = '919999999999'; // TODO: replace with real Bharat Factory AI WhatsApp number
+async function submitLead(lead) {
+  try { fetch('/api/lead', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(lead)}); } catch(_){}
+  if(window.fbq) fbq('track', 'Lead');
+  if(window.gtag) gtag('event', 'generate_lead');
+  const msg = `Hi Bharat Factory AI, I want free factory audit.\n\nName: ${lead.name||'-'}\nRole: ${lead.role||'-'}\nCompany: ${lead.company}\nPhone: ${lead.phone}\nWorkers: ${lead.workers||'-'}\nCity: ${lead.city||'-'}\nIndustry: ${lead.industry||'-'}`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+document.getElementById('lead-form').addEventListener('submit', function(e){ e.preventDefault(); submitLead(Object.fromEntries(new FormData(this).entries())); });
+document.getElementById('quick-lead').addEventListener('submit', function(e){ e.preventDefault(); submitLead(Object.fromEntries(new FormData(this).entries())); });
+</script>
+
+</body>
+</html>
